@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/calendars"
+        android:title="Календари"
+        android:icon="@drawable/baseline_event_note_24"/>
+
+    <item
+        android:id="@+id/events"
+        android:title="События"
+        android:icon="@drawable/baseline_event_24"
+        />
+
+    <item
+        android:id="@+id/fab"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Добавить элемент"/>
+
+    <item
+        android:id="@+id/surveys"
+        android:title="Опросы"
+        android:icon="@drawable/survey" />
+    <item
+        android:id="@+id/locations"
+        android:title="Локации"
+        android:icon="@drawable/location" />
+
+</menu>
